@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="IDScanNet.Authentication.SDK" Version="3.2212.23.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="scanSets\**" CopyToOutputDirectory="Always" />
+	</ItemGroup>
+
+</Project>
